@@ -310,7 +310,7 @@ E.G.
 
 我还是会选择拖进来或者复制粘贴啦~ 在 Typora 的设置里也可以改图片的储存方式. 
 
-图片排版可以按照HTML的方式，如：
+- 图片排版可以按照HTML的方式，如：
 
 ```html
 <center>
@@ -327,6 +327,15 @@ E.G.
     <br>
     这里写图注
 </center>
+- 如何在图注中添加公式呢？
+
+<center>
+    <img src = "https://pics1.baidu.com/feed/0b55b319ebc4b745f5e43a3ea07a3e1f8a821530.png?token=ede04020608c4cccc540305c0b8fb795&s=188A5C32150F514D5CDD55CA0300C0B1"
+         width=25%>
+    <br>
+    <img src="http://latex.codecogs.com/gif.latex? a^2"
+</center>
+
 
 ### 18. 分割线 [按三个 "*" 或 "-" 或 "_" 并敲回车]
 
@@ -376,6 +385,37 @@ E.G.
 
 这里分享一个可以复制[全Emoji的网站](https://emojipedia.org/apple/), 非常好用! 我之前的C语言大作业也是从这里下载的资源! 
 
+### 20.视频
+
+以b站为例，复制嵌入代码
+
+![image-20220820190125995](http://c7f49cfdf594b0ba.oss-cn-hangzhou.aliyuncs.com/img/typora/image-20220820190125995.png)
+
+
+
+```html
+<iframe src="//player.bilibili.com/player.html?aid=601617843&bvid=BV1uB4y1874M&cid=789964066&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> 
+</iframe>
+```
+
+直接嵌入的话，视频窗口太小，我们加入
+```height="500"```
+
+```
+<iframe src="//player.bilibili.com/player.html?aid=601617843&bvid=BV1uB4y1874M&cid=789964066&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height="500"> 
+</iframe>
+```
+
+
+
+<iframe src="//player.bilibili.com/player.html?aid=601617843&bvid=BV1uB4y1874M&cid=789964066&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" height="500"> 
+</iframe>
+### 21.嵌入PDF
+
+```html
+<embed id="pdfPlayer" src="https://c7f49cfdf594b0ba.oss-cn-hangzhou.aliyuncs.com/Matlab%E4%B8%89%E7%BB%B4%E7%BB%98%E5%9B%BE.pdf" type="application/pdf" width="100%" height="600" >
+```
+<embed id="pdfPlayer" src="https://c7f49cfdf594b0ba.oss-cn-hangzhou.aliyuncs.com/Matlab%E4%B8%89%E7%BB%B4%E7%BB%98%E5%9B%BE.pdf" type="application/pdf" width="100%" height="600" >
 
 
 ## 🔥 进阶教程
