@@ -310,6 +310,24 @@ E.G.
 
 我还是会选择拖进来或者复制粘贴啦~ 在 Typora 的设置里也可以改图片的储存方式. 
 
+图片排版可以按照HTML的方式，如：
+
+```html
+<center>
+    <img src = "https://pics1.baidu.com/feed/0b55b319ebc4b745f5e43a3ea07a3e1f8a821530.png?token=ede04020608c4cccc540305c0b8fb795&s=188A5C32150F514D5CDD55CA0300C0B1"
+         width=25%>
+    <br>不写br则默认并排
+    这里写图注
+</center>
+```
+
+<center>
+    <img src = "https://pics1.baidu.com/feed/0b55b319ebc4b745f5e43a3ea07a3e1f8a821530.png?token=ede04020608c4cccc540305c0b8fb795&s=188A5C32150F514D5CDD55CA0300C0B1"
+         width=25%>
+    <br>
+    这里写图注
+</center>
+
 ### 18. 分割线 [按三个 "*" 或 "-" 或 "_" 并敲回车]
 
 ```
@@ -372,7 +390,7 @@ E.G.
 
 ### 2. 内联 HTML 代码 [用 "<> </>" 包围]
 
-```
+```html
 <div style="text-align:center">
   <font style="color:red">我不会 HTML 呜呜呜... 浇浇我</font>
 </div>
